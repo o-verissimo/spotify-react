@@ -8,7 +8,7 @@
     top: 0;
     margin-right: 0rem;
     margin-left: 20.5rem;
-    width: 73vw;
+    width: 61.875rem;
     height: 5vh;
     border-radius: 8px;
     background-color: #121212;
@@ -63,9 +63,11 @@
   .header__search input {
     background: transparent;
     border: none;
-    padding: 0px 100px 0 12px;
+    padding: 12px 100px 12px 12px;
     color: #fff;
     text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
     outline: none;
   }
   

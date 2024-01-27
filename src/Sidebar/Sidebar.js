@@ -2,7 +2,7 @@ import React from "react";
 import '../reset.css';
 import './Sidebar.css';
 import logoSpotify from '../assets/icons/logo-spotify.png'
-import { FaHome } from "react-icons/fa";
+import { GrHomeRounded } from "react-icons/gr";
 import { FaSearch } from "react-icons/fa";
 import { BiLibrary } from "react-icons/bi";
 import { FaPlus } from "react-icons/fa";
@@ -21,7 +21,7 @@ const Sidebar = () => {
                     <ul>
                         <li>
                             <button className="home_button">
-                                <span className="home-icon"><FaHome /></span>
+                                <span className="home-icon"><GrHomeRounded /></span>
                                 <span>Início</span>
                             </button>
                         </li>

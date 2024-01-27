@@ -18,8 +18,9 @@ const Header = () => {
                 </div>
                 <div className="header__search">
                     <img src={search} alt="" />
-                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
-                        placeholder="O que você quer ouvir?" value="" />
+                    <input id="search-input" maxLength="800" autoCorrect="off" autoCapitalize="off" spellCheck="false"
+                    placeholder="O que você quer ouvir?"/>
+
                 </div>
                 <div className="header__login">
                     <button className="subscribe">Inscreva-se</button>
