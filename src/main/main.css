@@ -23,7 +23,7 @@ button{
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    height: 72vh; 
+    height: 29.5rem; 
     margin-top: 5rem;
     margin-right: 0rem;
     margin-left: 20.5rem;
@@ -55,7 +55,7 @@ button{
   
   /* SCROLL */
   .offer__scroll-container {
-    max-height: 40vh;
+    max-height: 19rem;
     margin: 0; /* 24px para rem */
     overflow-y: auto;
   }
@@ -89,9 +89,6 @@ button{
   
   .cards span {
     display:flex;
-    align-items: start;
-    align-self: start;
-    align-items: flex-start;
     justify-content: flex-start;
     overflow-wrap: break-word;
     max-width: 100%;
@@ -100,7 +97,6 @@ button{
     color: var(--text-base-light);
     font-size: 1.5rem;
     font-weight: 600;
-    
   }
 
   
