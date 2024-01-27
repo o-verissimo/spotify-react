@@ -125,6 +125,7 @@ ul li {
     font-size: 0.875rem; 
     margin-top: 0.5rem; 
     flex-direction: column;
+    height: 24.063rem;
 }
 
 .library .library__button {

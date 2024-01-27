@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Circular";
+    src: url("../assets/Circular/CircularStd-Bold.ttf");
+    src: url("../assets/Circular/CircularStd-Book.ttf");
+    src: url("../assets/Circular/CircularStd-Black.ttf");
+    src: url("../assets/Circular/CircularStd-Medium.ttf");
+  }
+
+body{
+    background-color: #000;
+    font-family: "Circular", CircularStd-Bold;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 0.638rem 1.0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+   cursor: pointer;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    font-family: "Circular", CircularStd-Black;
+    font-weight:500;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.875rem 1.875rem;
+    border: 0;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
