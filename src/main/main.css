@@ -23,7 +23,7 @@ button{
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    height: 29.5rem; 
+    height: 28.7rem; 
     margin-top: 5rem;
     margin-right: 0rem;
     margin-left: 20.5rem;
@@ -75,6 +75,7 @@ button{
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  /* número de colunas na grade e a largura de cada coluna */
     gap: 1rem;
+    height: 18rem; 
     margin-bottom: 1px;
   }
   
@@ -84,20 +85,31 @@ button{
     height: 11.25rem;
     overflow: hidden;
     border-radius: 0.5rem; /* 8px para rem */
-    
   }
   
   .cards span {
-    display:flex;
-    justify-content: flex-start;
-    overflow-wrap: break-word;
+    display: flex;
+    justify-content: start;
+    align-items: start;
     max-width: 100%;
     font-family: "Circular", CircularStd-Bold;
     padding: 1rem;
     color: var(--text-base-light);
-    font-size: 1.5rem;
+    font-size: 1.45em;
     font-weight: 600;
   }
+
+  .cards p {
+    display:flex;
+    max-width: 100%;
+    font-family: "Circular", CircularStd-Bold;
+    padding: 1rem;
+    margin-top: -2.188rem;
+    color: var(--text-base-light);
+    font-size: 1.35rem;
+    font-weight: 600;
+  }
+  
 
   
   /* COLOR CARDS */

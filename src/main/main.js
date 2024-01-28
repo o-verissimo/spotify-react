@@ -1,6 +1,7 @@
 import React from "react";
 import './main.css';
 import '../var.css';
+import { FaPlay } from "react-icons/fa";
 import img1 from '../assets/playlist/1.jpeg'
 import img2 from '../assets/playlist/2.png'
 import img3 from '../assets/playlist/3.jpeg'
@@ -22,116 +23,118 @@ import img15 from '../assets/playlist/15.jpeg'
 const Main = () => {
     return(
         <main>
-            <div class="playlist-container">
+            <div className="playlist-container">
                 <div id="result-playlists">
-                    <div class="playlist">
+                    <div className="playlist">
                         <h1 id="greeting">Boas vindas</h1>
-                        <h2 class="session">Navegar por todas as seções</h2>
+                        <h2 className="session">Navegar por todas as seções</h2>
                     </div>
 
-                    <div class="offer__scroll-container">
-                        <div class="offer__list">
-                            <section class="offer__list-item">
-                                <button  class="cards">
-                                    <div class="cards card1">
+                    <div className="offer__scroll-container">
+                        <div className="offer__list">
+                            <section className="offer__list-item">
+                                <button  className="cards">
+                                    <div className="cards card1">
                                         <img src={img1} alt="" />
                                         <span>Boas festas</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card2">
+                                <button  className="cards">
+                                    <div className="cards card2">
                                         <img src={img2} alt="" />
-                                        <span>Feitos para você</span>
+                                        <span>Feitos para</span>
+                                        <p>você</p>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card3">
+                                <button  className="cards">
+                                    <div className="cards card3">
                                         <img src={img3} alt="" />
                                         <span>Lançamentos</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card4">
+                                <button  className="cards">
+                                    <div className="cards card4">
                                         <img src={img4} alt="" />
                                         <span>Creators</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card5">
+                                <button  className="cards">
+                                    <div className="cards card5">
                                         <img src={img5} alt="" />
                                         <span>Para treinar</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card6">
+                                <button  className="cards">
+                                    <div className="cards card6">
                                         <img src={img6} alt="" />
                                         <span>Podcasts</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card7">
+                                <button  className="cards">
+                                    <div className="cards card7">
                                         <img src={img7} alt="" />
                                         <span>Sertanejo</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card8">
+                                <button  className="cards">
+                                    <div className="cards card8">
                                         <img src={img8} alt="" />
-                                        <span>Samba e pagode</span>
+                                        <span>Samba e </span>
+                                        <p>Pagode</p>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card9">
+                                <button  className="cards">
+                                    <div className="cards card9">
                                         <img src={img9} alt="" />
                                         <span>Funk</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card10">
+                                <button  className="cards">
+                                    <div className="cards card10">
                                         <img src={img10} alt="" />
                                         <span>MPB</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card11">
+                                <button  className="cards">
+                                    <div className="cards card11">
                                         <img src={img11} alt="" />
                                         <span>Rock</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card12">
+                                <button  className="cards">
+                                    <div className="cards card12">
                                         <img src={img12} alt="" />
                                         <span>Hip Hop</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card13">
+                                <button  className="cards">
+                                    <div className="cards card13">
                                         <img src={img13} alt="" />
                                         <span>Indie</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card14">
+                                <button  className="cards">
+                                    <div className="cards card14">
                                         <img src={img14} alt="" />
                                         <span>Relax</span>
                                     </div>
                                 </button>
 
-                                <button  class="cards">
-                                    <div class="cards card15">
+                                <button  className="cards">
+                                    <div className="cards card15">
                                         <img src={img15} alt="" />
                                         <span>Música Latina</span>
                                     </div>
@@ -140,19 +143,19 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div id="result-artist" class="hidden">
-                    <div class="grid-container">
-                        <div class="artist-card" id="">
-                            <div class="card-img">
-                                <img id="artist-img" class="artist-img" />
-                                <div class="play">
-                                    <span class="fa fa-solid fa-play"></span>
+                <div id="result-artist" className="hidden">
+                    <div className="grid-container">
+                        <div className="artist-card" id="">
+                            <div className="card-img">
+                                <img id="artist-img" className="artist-img" />
+                                <div className="play">
+                                    <span className="fa fa-solid fa-play"><FaPlay /></span>
                                 </div>
                             </div>
-                            <div class="card-text">
-                                <button title="Foo Fighters" class="vst" ></button>
-                                <span class="artist-name" id="artist-name"></span>
-                                <span class="artist-categorie">Artista</span>
+                            <div className="card-text">
+                                <button title="Foo Fighters" className="vst" ></button>
+                                <span className="artist-name" id="artist-name"></span>
+                                <span className="artist-categorie">Artista</span>
                             </div>
                         </div>
                     </div>
