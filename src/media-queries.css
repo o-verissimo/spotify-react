@@ -1,0 +1,53 @@
+@media screen and (max-width: 1367px ){
+  .playlist-container{
+      width: 75.20vw;
+      height: 42.2vw; 
+  }
+
+  .header__navigation {
+      width: 72.75vw;
+    }
+
+  .offer__list-item {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+      height: 30vw; 
+    }
+
+  .offer__scroll-container {
+      max-height: 33vw;
+      margin: 0; /* 24px para rem */
+      overflow-y: auto;
+    }
+    
+  .offer__scroll-container::-webkit-scrollbar {
+      width: 0.0625rem; /* 1px para rem */
+  }
+}
+
+@media screen and (min-width: 1920px ){
+    .playlist-container{
+        width: 82.20vw;
+        height: 46.2vw; 
+    }
+
+    .header__navigation {
+        width: 80.55vw;
+      }
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        height: 30vw; 
+      }
+
+    .offer__scroll-container {
+        max-height: 33vw;
+        margin: 0; /* 24px para rem */
+        overflow-y: auto;
+      }
+      
+    .offer__scroll-container::-webkit-scrollbar {
+        width: 0.0625rem; /* 1px para rem */
+    }
+}
+
+

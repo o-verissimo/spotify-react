@@ -1,6 +1,7 @@
 import React from "react";
 import './main.css';
 import '../var.css';
+import '../media-queries.css';
 import { FaPlay } from "react-icons/fa";
 import img1 from '../assets/playlist/1.jpeg'
 import img2 from '../assets/playlist/2.png'
