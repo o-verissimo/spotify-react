@@ -26,5 +26,5 @@
 
 # Time
 
-| <img loading="lazy" src="https://avatars.githubusercontent.com/u/102670336?v=4" width=115><br><sub>Paulo Pereira</sub> <br><br> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="40" height="40">  <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" width="40" height="40">
+| <a href="https://www.instagram.com/o_verissimo_/"><img loading="lazy" src="https://avatars.githubusercontent.com/u/102670336?v=4" width=115><br><sub>Paulo Pereira</sub></a> <br><br> <a href="https://www.linkedin.com/in/paulo-vitor-v-pereira/"> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="40" height="40"></a>  <a href="https://github.com/o-verissimo"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" width="40" height="40"></a>
 | :---: | 
