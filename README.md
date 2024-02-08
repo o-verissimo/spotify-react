@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1 align="center">
+    Home Page do Spotify feito no React
+    <br />
+    <br />
+   <a href="https://imersao-alura-spotify-kvf6iqox8-v7rissimos-projects.vercel.app/">
+    <img src="https://github.com/o-verissimo/spotify-react-master/assets/102670336/477c6f06-2902-49d4-979f-cca743e8ec55">
+   </a>    
+  </h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h2>📖 Sobre</h2>
+<p>Este é o primeiro projeto que faço em front-end do absoluto zero até o projeto pronto, cujo o mesmo tive a honra de fazer sendo instruido por grandes professores um deles instrutor da <a href="https://www.linkedin.com/school/aluracursos/">@Alura</a> o professor <a href="https://www.linkedin.com/in/guilherme-lima-458925178/">@Guilherme Lima</a>, a Desenvolvedora Front-end da Globo <a href="https://www.linkedin.com/in/fernandadegolin/">@Fernanda Degolin</a> e a Desenvolvedora Front-end no Itaú <a href=https://www.linkedin.com/in/mayara-cardoso-556a45162/">Mayara Cardoso</a>. <br>
+   Este projeto foi feito no react no qual tambem foi a primeira vez que tive a honra de utilizar e desbravar pra adaptar o código antes apenas feito em HTML, CSS e JS para que pudesse ser rodado utilizando o react. <br> Espero que gostem, é simples, porém feito com muito trabalho, estudo e dedicação 😄!</p>
 
-In the project directory, you can run:
+## 🚀 Tecnologias
 
-### `npm start`
+<div>
+  <h3>Para esse projeto utilizei:</h3>
+  <img src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-512.png" width="100" height="100">
+  <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/167_Html5_logo_logos-512.png" width="100" height="100">
+  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" width="90" height="90">
+  <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png" width="100" height="100">
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Time
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| <img loading="lazy" src="https://avatars.githubusercontent.com/u/102670336?v=4" width=115><br><sub>Paulo Pereira</sub> <br><br> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="40" height="40">  <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" width="40" height="40">
+| :---: | 
